@@ -5,6 +5,6 @@ def hasL(w):
         if w[i] == "l":
             return True
     else:
-        False
+        return False
 
 hasL("hassle")
