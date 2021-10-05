@@ -1,10 +1,9 @@
 #WRITE YOUR CODE IN THIS FILE
 def hasL(w):
-    x = 0
-    while x < len(w):
-        if w == "l":
+    for i in range(0, len(w)):
+        print(w[i])
+        if i == "l":
             return True
         else:
             return False
-        x = x + 1
-print(hasL("alligator"))
+hasL("hassle")
